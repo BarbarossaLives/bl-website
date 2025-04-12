@@ -1,27 +1,65 @@
 body{
-    background-image: url(orangedessert.png);
+    
+    background-color: azure;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: lightgray;
 }
-
-
 
 header{
     margin:5vh auto 0px auto;
     background-color: bisque;
     border: 3px solid black;
     border-radius:15px;
-    
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
 }
 
 .logo{
-    width: 50px;
-    height:50px;
+    width: 100px;
+    height:100px;
+    margin: 1vh 10vw 0vh 10vh;
+    padding:0px;
     
 }
 .logo-name{
+    margin:0px 10vw;
+    padding: 0px;
+
+    
+}
+main{
     display: flex;
-    align-items: baseline;
+    border: 3px dotted red;
+    padding:0px 100px;
+    margin:0px 0px;
+    background-color: lightsteelblue;
+    
+}
+.latest-news{
+    border:4px solid black;
+    border-radius: 15px;
+    width: 45vw;
+    margin:3vh 2vw;
+    padding:20px;
+    text-align: justify;
+}
+
+.renders{
+    border:4px solid black;
+    border-radius: 15px;
+    width:30vw;
+    margin:3vh 2vw;
+    padding: 20px;px;
+    text-align: center;
+}
+
+ul{
+    text-align: justify;
 }
